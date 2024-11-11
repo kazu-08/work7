@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build" # 必要に応じて変更
+  publish = "build"         # ビルド後の公開ディレクトリ
+
+[functions]
+  directory = "netlify/functions" # Functionsフォルダのパスを指定
